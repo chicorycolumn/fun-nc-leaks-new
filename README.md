@@ -1,4 +1,4 @@
-# Instructions
+# Great Looking Instructions
 
 Northcoders have set up an api to serve data about past and present employees here: https://nc-leaks.herokuapp.com. A northcoders whistleblower has left you some instructions on how to obtain this data and leak it to the world on an api endpoint.
 
