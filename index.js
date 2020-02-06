@@ -17,7 +17,7 @@ function getPeople() {
     response.on("end", () => {
       // when you pass response.on the arg 'end', it executes the callback you give it only when all data packets come in.
       const parsedBody = JSON.parse(body);
-      fs.writeFile("./people.js", body, err => {
+      fs.writeFile("./--parsedbodydotpeoplezeroSTRING.js", JSON.stringify(parsedBody.people[0]), err => {
         console.log("finished writing to new file!");
       });
     });
@@ -26,3 +26,8 @@ function getPeople() {
 }
 
 getPeople();
+
+
+const a = {"firstName":"Trycia","lastName":"Ryan","img_url":"http://lorempixel.com/640/480/people","job":{"team":"models","title":"mission-critical","workplace":"Abernathy, Becker and Ferry"},"username":"EarringSpecialEarnestDangerousMonster"}
+
+console.log(typeof a)

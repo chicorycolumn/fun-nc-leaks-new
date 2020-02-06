@@ -1,0 +1,3 @@
+const a = {"firstName":"Trycia","lastName":"Ryan","img_url":"http://lorempixel.com/640/480/people","job":{"team":"models","title":"mission-critical","workplace":"Abernathy, Becker and Ferry"},"username":"EarringSpecialEarnestDangerousMonster"}
+
+console.log(a)
