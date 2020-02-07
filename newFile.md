@@ -32,7 +32,7 @@ Today we will leak this information to the world! You will introduce yourself to
 
 ### Core Tasks
 
-1. Using Node's http module create a web server that responds with 'hello' when it receives a GET request on the path /api
+1. Using Node's http module, create a web server that responds with 'hello' when it receives a GET request on the path /api
 
 2. Add a GET `/api/northcoders` endpoint that serves a JSON object of all the northcoders which shows their name, job details, image and username.
 
