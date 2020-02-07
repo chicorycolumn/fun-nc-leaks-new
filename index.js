@@ -22,7 +22,7 @@ function getPeople() {
       });
     });
   });
-  request.end(); // executes the request ./newfile.txt
+  request.end(); // executes the request
 }
 
 getPeople();
